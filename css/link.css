@@ -1,0 +1,151 @@
+
+.fruid-container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 0 1px 0 #adadad;
+    background-color: #333;
+    /* Đặt màu nền của thanh menu bar */
+    z-index: 100;
+}
+.fruid-container .navbar .navbar-brand{
+    color: #ccc;
+    font-size: 14px
+}
+
+/* col */
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+.col-3 {
+    color: #fff;
+    justify-content: flex-end;
+    display: flex;
+}
+
+#chu-a {
+    padding-right: 10px;
+}
+
+
+
+/*  */
+.custom-video {
+    width: 100%;
+
+}
+
+.col-6{
+color: #fff;
+
+}
+.likes{
+margin-right: 30px;
+color: #07A0D4;
+padding: 5px;
+border-radius: 5%;
+border: 1px solid #07A0D4;
+background-color: #0A5C6F;
+padding-left: 4%;
+padding-right: 4%;
+text-align: center;
+}
+/*  */
+.bolder {
+    border: 0.5px solid #3B3B3B;
+    width: 600px;
+}
+/*  */
+.anh-right{
+    width: 160px;
+}
+
+.film-right {
+    display: flex;
+  
+    color: #fff;
+    white-space: nowrap; 
+    margin-bottom: 13px;
+}
+
+.right-title {
+    margin-left: 10px;
+}
+
+
+/*  */
+.film-body-container-f {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    color: #fff;
+    gap: 10px;
+}
+.anh-film, .anh-film-a {
+    max-width: 100%;
+    height: auto;
+    width: 100%; /* Thêm thuộc tính này để đảm bảo ảnh không tràn qua chiều rộng của container */
+}
+/* chu tren anh */
+.box-b {
+    position: relative;
+  }
+.film-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 4px 0;
+    /* Khoảng cách padding trên và dưới của tiêu đề (đặt padding bên trái và phải là 0) */
+    width: 100%;
+    /* Tiêu đề tràn qua ảnh theo chiều ngang */
+    background: transparent;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0), rgba(0, 0, 0, .39) 34%, #000 87%);
+  
+  }
+  .film-info{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+  }
+/* hover */
+.film-f {
+    overflow: hidden;
+  }
+  
+  .anh-film {
+    height: 100%;
+    width: 100%;
+    transition: all 0.3s;
+  }
+  
+  /*làm cho hình ảnh trong các phần tử .film-a và .film-1 phóng to khi người dùng di chuột qua chúng*/
+  .anh-film-a {
+    transition: all 0.3s;
+  }
+  
+  .film-f:hover img {
+    transform: scale(1.2);
+  }
+  
+
+  /*  */
+  .heading{
+    color: #1DBBEF;
+  }
+  .right-info{
+    color: #AEBBAE;
+  }
+
+  /* below */
+  span{
+    color: #AEBBAE;
+    background-color: #444444;
+    padding: 5px;
+  }
